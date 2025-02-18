@@ -10,15 +10,12 @@ type Props = {
 export function Participant({ name, onRemove }: Props) {  /* onRemove é uma função enviada como parâmetro */
   return (
     <View style={styles.container}>
-      <Text style={styles.name}>
-        {name}
-      </Text>
-
-      <TouchableOpacity style={styles.button} onPress={onRemove}> {/*  ao pressionar, onRemove é executada */}
-          <Text style={styles.buttonText}>
-            -
-          </Text>
+      <Text style={styles.name}>{name}</Text>
+      
+      <TouchableOpacity style={styles.button} onPress={onRemove}> 
+          <Text style={styles.buttonText}> - </Text>
       </TouchableOpacity>
     </View>
   )
+  /* ao pressionar, onRemove é executada */
 }

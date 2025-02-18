@@ -41,12 +41,18 @@ export const styles = StyleSheet.create({
   form: {
     width: '100%',
     flexDirection: 'row',
-    marginTop: 36,
+    marginTop: 12,
     marginBottom: 42
   },
   listEmptyText: {
     color: '#FFF',
     fontSize: 14,
     textAlign: 'center'
-  }
+  },
+  participantCount: {
+    color: '#6B6B6B',
+    fontSize: 15,
+    fontWeight: 'bold',
+    marginTop: 29,
+  },
 })
