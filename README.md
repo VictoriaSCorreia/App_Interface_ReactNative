@@ -13,4 +13,5 @@ Interface interativa que permite adicionar e remover participantes de um evento.
 
 [INTERFACE](./video_interface.gif)
 
-![INTERFACE](./video_interface.gif)
+<img src="./video_interface.gif" height="600">
+
