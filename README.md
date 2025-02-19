@@ -9,5 +9,8 @@ Interface interativa que permite adicionar e remover participantes de um evento.
 * Fundo padronizado quando a lista está vazia
 * Mostra a quantidade total de participantes
 
-[Interface](video_interface.git)
-![Interface](video_interface.git)
+### 🎥 Video Demonstrativo
+
+[INTERFACE](./video_interface.gif)
+
+![INTERFACE](./video_interface.gif)
